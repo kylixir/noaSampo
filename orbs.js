@@ -452,7 +452,7 @@ function update_orbs()
         search_color = "#FF5E26"
         search_color2 = "#FFE385"
         redraw_map();
-        output.innerHTML += "<p>Great Chest Orb found at</p><p>x = " + search_x + ", y = " + search_y + "<\p>";
+        output.innerHTML += "<p>Great Chest Sampo found at</p><p>x = " + search_x + ", y = " + search_y + "<\p>";
         status.innerHTML = "";
     }
 
