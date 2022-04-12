@@ -296,7 +296,7 @@ int search_portal_step(uint max_iterations)
                 x_seed = floor(x_portal_room+parallel_number*parallel_width+portal_list[2*p+0]);
                 y_seed = floor(y_portal_room+portal_list[2*p+1]);
                 SetRandomSeed(portal_world_seed+newgame, x_seed, y_seed);
-                if(Random(0, 100000) == 100000 && Random(0, 1000) == 999)
+                if(Random(0, 100000) == 100000 && Random(0, 1000) != 999)
                 {
                     search_portal_result[0] = parallel_number;
                     search_portal_result[1] = p;
